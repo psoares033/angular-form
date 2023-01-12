@@ -1,0 +1,113 @@
+.align_center {
+  text-align: center;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.subTitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.subVermelho {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  color: red;
+}
+
+.input-group {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  empty-cells: show;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  empty-cells: show;
+  font-size: 15px;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  padding-left: 8px;
+  font-size: 15px;
+  empty-cells: show;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 2px;
+  padding-left: 8px;
+  empty-cells: show;
+}
+
+.td_span {
+  font-size: 15px;
+}
+
+th {
+  width: auto;
+}
+
+.th_40 {
+  width: 40%;
+}
+
+.th_35 {
+  width: 35%;
+}
+
+.th_25 {
+  width: 25%;
+}
+
+.th_15 {
+  width: 15%;
+}
+
+td {
+  width: auto;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 15px;
+}
+
+.btn_pad {
+  padding-top: 2px !important;
+  margin-top: 11px;
+}
